@@ -1,4 +1,10 @@
-""" 给定国家按字典顺序输出，再根据给定的国家逆序输出。 """
+"""
+给定几个国家字符串，首先将其按首字母字典顺序排序，再按照给定国家字符串逆序排序。
+输入：China India England America
+输出：America China England India
+输入：China
+输出：China America India England
+"""
 
 
 countrys = input()    # 输入国家字符串
